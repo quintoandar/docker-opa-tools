@@ -1,6 +1,6 @@
 FROM alpine:3.12
 
-ARG OPA_VERSION=0.30.1
+ARG OPA_VERSION=0.31.0
 ARG KILLGRAVE_VERSION=0.4.1
 
 ADD https://github.com/open-policy-agent/opa/releases/download/v$OPA_VERSION/opa_linux_amd64_static /bin/opa
