@@ -10,4 +10,4 @@ RUN tar xzf /tmp/killgrave.tar.gz -C /bin/ && \
     rm -f /tmp/killgrave.tar.gz && \
     chown root:root /bin/killgrave && \
     chmod +x /bin/opa /bin/killgrave && \
-    apk add --no-cache curl aws-cli make
+    apk add --no-cache curl aws-cli make yq
