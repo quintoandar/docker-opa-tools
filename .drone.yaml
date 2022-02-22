@@ -1,0 +1,9 @@
+pipeline:
+  publish-docker:
+    group: publish
+    image: quintoandar/drone-gcr
+    pull: true
+    repo: quintohub/opa-tools
+    tag: ["${DRONE_TAG}"]
+    when:
+      event: tag
